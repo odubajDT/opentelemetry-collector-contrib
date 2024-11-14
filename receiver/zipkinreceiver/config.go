@@ -15,7 +15,7 @@ var disallowHTTPDefaultProtocol = featuregate.GlobalRegistry().MustRegister(
 	"zipkinreceiver.httpDefaultProtocol.disallow",
 	featuregate.StageAlpha,
 	featuregate.WithRegisterDescription("When enabled, usage of the default http configuration is disallowed"),
-	featuregate.WithRegisterFromVersion("v0.112.0"),
+	featuregate.WithRegisterFromVersion("v0.114.0"),
 )
 
 // Config defines configuration for Zipkin receiver.
