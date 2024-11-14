@@ -7,3 +7,8 @@ zipkin/protocols:
       endpoint: "localhost:8765"
 zipkin/parse_strings:
   parse_string_tags: true
+zipkin/deprecated:
+  endpoint: "localhost:8766"
+  protocols:
+    http:
+      endpoint: "localhost:8765"

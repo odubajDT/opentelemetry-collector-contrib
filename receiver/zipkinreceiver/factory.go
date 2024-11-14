@@ -51,5 +51,8 @@ func createTracesReceiver(
 	nextConsumer consumer.Traces,
 ) (receiver.Traces, error) {
 	rCfg := cfg.(*Config)
+	if isServerConfigDefined(rCfg.ServerConfig) {
+		set.Logger.Warn(deprecationConfigMsg)
+	}
 	return newReceiver(rCfg, nextConsumer, set)
 }

@@ -18,6 +18,8 @@ var disallowHTTPDefaultProtocol = featuregate.GlobalRegistry().MustRegister(
 	featuregate.WithRegisterFromVersion("v0.114.0"),
 )
 
+const deprecationConfigMsg = "the inline setting of http server parameters has been deprecated, please use .protocols.http parameter instead."
+
 // Config defines configuration for Zipkin receiver.
 type Config struct {
 	// Configures the receiver server protocol.
@@ -41,9 +43,12 @@ var _ component.Config = (*Config)(nil)
 
 // Validate checks the receiver configuration is valid
 func (cfg *Config) Validate() error {
-	if cfg.isServerConfigDefined() {
+	if isServerConfigDefined(cfg.ServerConfig) {
 		if disallowHTTPDefaultProtocol.IsEnabled() {
-			return fmt.Errorf("the inline setting of http server parameters has been deprecated, please use protocols.http parameter instead")
+			return fmt.Errorf(deprecationConfigMsg)
+		}
+		if isServerConfigDefined(cfg.Protocols.HTTP) {
+			return fmt.Errorf("cannot use .protocols.http together with default server config setup")
 		}
 		cfg.Protocols.HTTP = cfg.ServerConfig
 		cfg.ServerConfig = confighttp.ServerConfig{}
@@ -53,7 +58,7 @@ func (cfg *Config) Validate() error {
 }
 
 // IsServerConfigDefined checks if the ServerConfig is defined by the user
-func (cfg *Config) isServerConfigDefined() bool {
+func isServerConfigDefined(cfg confighttp.ServerConfig) bool {
 	return cfg.Endpoint != "" ||
 		cfg.TLSSetting != nil ||
 		cfg.CORS != nil ||
