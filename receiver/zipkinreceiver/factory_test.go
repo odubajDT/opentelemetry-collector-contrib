@@ -62,12 +62,14 @@ func TestCreateReceiverDeprecatedWarning(t *testing.T) {
 	set := receivertest.NewNopSettings()
 	set.Logger = logger
 
-	_, _ = createTracesReceiver(
+	_, err := createTracesReceiver(
 		context.Background(),
 		set,
 		cfg,
 		consumertest.NewNop(),
 	)
+
+	assert.NoError(t, err)
 
 	logOutput := buffer.String()
 	if !bytes.Contains([]byte(logOutput), []byte(deprecationConfigMsg)) {
