@@ -8,7 +8,6 @@ import (
 	"context"
 	"testing"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/config/confighttp"
@@ -16,6 +15,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {
