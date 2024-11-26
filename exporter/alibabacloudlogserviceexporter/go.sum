@@ -20,8 +20,8 @@ github.com/alibabacloud-go/tea-utils/v2 v2.0.1 h1:K6kwgo+UiYx+/kr6CO0PN5ACZDzE3n
 github.com/alibabacloud-go/tea-utils/v2 v2.0.1/go.mod h1:U5MTY10WwlquGPS34DOeomUGBB0gXbLueiq5Trwu0C4=
 github.com/alibabacloud-go/tea-xml v1.1.2 h1:oLxa7JUXm2EDFzMg+7oRsYc+kutgCVwm+bZlhhmvW5M=
 github.com/alibabacloud-go/tea-xml v1.1.2/go.mod h1:Rq08vgCcCAjHyRi/M7xlHKUykZCEtyBy9+DPF6GgEu8=
-github.com/aliyun/aliyun-log-go-sdk v0.1.83 h1:xdFXXsvhO5BedlO9EUSf/HJDHSCp6kQrwL4EKDnT/Zg=
-github.com/aliyun/aliyun-log-go-sdk v0.1.83/go.mod h1:qNjBnTjQl8UeHhGmoZ7iredr2xyVBD1Ueu3JgOALR5U=
+github.com/aliyun/aliyun-log-go-sdk v0.1.85 h1:fcpyRhlHpX0tEBmkUlIB65tfmUpaVn/gfKHTL7NM/kU=
+github.com/aliyun/aliyun-log-go-sdk v0.1.85/go.mod h1:qNjBnTjQl8UeHhGmoZ7iredr2xyVBD1Ueu3JgOALR5U=
 github.com/aliyun/credentials-go v1.1.2 h1:qU1vwGIBb3UJ8BwunHDRFtAhS6jnQLnde/yk0+Ih2GY=
 github.com/aliyun/credentials-go v1.1.2/go.mod h1:ozcZaMR5kLM7pwtCMEpVmQ242suV6qTJya2bDq4X1Tw=
 github.com/cenkalti/backoff v2.2.1+incompatible h1:tNowT99t7UNflLxfYYSlKYsBpXdEet03Pg2g16Swow4=
@@ -83,6 +83,8 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.114.0 h1:d2wCLlENxH4I2axQWaogivx/5ZIjDYgn9MIf6sFxlJ4=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.114.0/go.mod h1:Psyligv8GKL9WI3TraW3BLwkOX4TRxaaa1BBQQyICzA=
 github.com/pierrec/lz4 v2.6.0+incompatible h1:Ix9yFKn1nSPBLFl/yZknTp8TU5G4Ps0JDmguYK6iH1A=
 github.com/pierrec/lz4 v2.6.0+incompatible/go.mod h1:pdkljMzZIN41W+lC3N2tnIh5sFi+IEE17M5jbnwPHcY=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
