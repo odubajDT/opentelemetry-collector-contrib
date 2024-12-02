@@ -18,8 +18,9 @@ import (
 // This file implements factory for Zipkin receiver.
 
 const (
-	defaultHTTPPort     = 9411
-	defaultBindEndpoint = "localhost:9411"
+	defaultHTTPPort      = 9411
+	defaultBindEndpoint  = "localhost:9411"
+	deprecationConfigMsg = "the inline setting of http server parameters has been deprecated, please use protocols::http parameter instead."
 )
 
 // NewFactory creates a new Zipkin receiver factory

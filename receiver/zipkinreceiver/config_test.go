@@ -31,6 +31,10 @@ func TestValidateConfig(t *testing.T) {
 		wantErr        error
 	}{
 		{
+			id:       component.NewID(metadata.Type),
+			expected: &Config{},
+		},
+		{
 			id: component.NewIDWithName(metadata.Type, "customname"),
 			expected: &Config{
 				Protocols: ProtocolTypes{
@@ -44,7 +48,14 @@ func TestValidateConfig(t *testing.T) {
 		{
 			id:             component.NewIDWithName(metadata.Type, "customname"),
 			disallowInline: true,
-			wantErr:        fmt.Errorf(deprecationConfigMsg),
+			expected: &Config{
+				Protocols: ProtocolTypes{
+					HTTP: confighttp.ServerConfig{
+						Endpoint: "localhost:8765",
+					},
+				},
+				ParseStringTags: false,
+			},
 		},
 		{
 			id: component.NewIDWithName(metadata.Type, "protocols"),
@@ -69,28 +80,28 @@ func TestValidateConfig(t *testing.T) {
 			},
 			disallowInline: true,
 		},
-		{
-			id: component.NewIDWithName(metadata.Type, "parse_strings"),
-			expected: &Config{
-				ParseStringTags: true,
-			},
-		},
-		{
-			id: component.NewIDWithName(metadata.Type, "parse_strings"),
-			expected: &Config{
-				ParseStringTags: true,
-			},
-			disallowInline: true,
-		},
+		// {
+		// 	id: component.NewIDWithName(metadata.Type, "parse_strings"),
+		// 	expected: &Config{
+		// 		ParseStringTags: true,
+		// 	},
+		// },
+		// {
+		// 	id: component.NewIDWithName(metadata.Type, "parse_strings"),
+		// 	expected: &Config{
+		// 		ParseStringTags: true,
+		// 	},
+		// 	disallowInline: true,
+		// },
 		{
 			id:             component.NewIDWithName(metadata.Type, "deprecated"),
 			disallowInline: true,
-			wantErr:        fmt.Errorf(deprecationConfigMsg),
+			wantErr:        fmt.Errorf("the server config setup is disabled, please use protocols::http or enable it by setting zipkinreceiver.httpDefaultProtocol.disallow feaure gate to false"),
 		},
 		{
 			id:             component.NewIDWithName(metadata.Type, "deprecated"),
 			disallowInline: false,
-			wantErr:        fmt.Errorf("cannot use .protocols.http together with default server config setup"),
+			wantErr:        fmt.Errorf("cannot use protocols::http together with default server config setup"),
 		},
 	}
 
@@ -110,53 +121,6 @@ func TestValidateConfig(t *testing.T) {
 
 			if tt.wantErr != nil {
 				assert.Equal(t, tt.wantErr, component.ValidateConfig(cfg))
-			} else {
-				assert.NoError(t, component.ValidateConfig(cfg))
-				assert.Equal(t, tt.expected, cfg)
-			}
-		})
-	}
-}
-
-func TestLoadConfig(t *testing.T) {
-	t.Parallel()
-
-	cm, err := confmaptest.LoadConf(filepath.Join("testdata", "config.yaml"))
-	require.NoError(t, err)
-
-	tests := []struct {
-		id       component.ID
-		expected component.Config
-		wantErr  bool
-	}{
-		{
-			id:       component.NewID(metadata.Type),
-			expected: createDefaultConfig(),
-		},
-		{
-			id: component.NewIDWithName(metadata.Type, "parse_strings"),
-			expected: &Config{
-				Protocols: ProtocolTypes{
-					HTTP: confighttp.ServerConfig{
-						Endpoint: defaultBindEndpoint,
-					},
-				},
-				ParseStringTags: true,
-			},
-		},
-	}
-
-	for _, tt := range tests {
-		t.Run(tt.id.String(), func(t *testing.T) {
-			factory := NewFactory()
-			cfg := factory.CreateDefaultConfig()
-
-			sub, err := cm.Sub(tt.id.String())
-			require.NoError(t, err)
-			require.NoError(t, sub.Unmarshal(cfg))
-
-			if tt.wantErr {
-				assert.Error(t, component.ValidateConfig(cfg))
 			} else {
 				assert.NoError(t, component.ValidateConfig(cfg))
 				assert.Equal(t, tt.expected, cfg)

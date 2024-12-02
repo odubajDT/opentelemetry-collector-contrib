@@ -8,6 +8,7 @@ import (
 
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/config/confighttp"
+	"go.opentelemetry.io/collector/confmap"
 	"go.opentelemetry.io/collector/featuregate"
 )
 
@@ -18,7 +19,10 @@ var disallowHTTPDefaultProtocol = featuregate.GlobalRegistry().MustRegister(
 	featuregate.WithRegisterFromVersion("v0.114.0"),
 )
 
-const deprecationConfigMsg = "the inline setting of http server parameters has been deprecated, please use .protocols.http parameter instead."
+const (
+	// Protocol values.
+	protoHTTP = "protocols::http"
+)
 
 // Config defines configuration for Zipkin receiver.
 type Config struct {
@@ -45,11 +49,25 @@ var _ component.Config = (*Config)(nil)
 func (cfg *Config) Validate() error {
 	if isServerConfigDefined(cfg.ServerConfig) {
 		if disallowHTTPDefaultProtocol.IsEnabled() {
-			return fmt.Errorf(deprecationConfigMsg)
+			return fmt.Errorf("the server config setup is disabled, please use protocols::http or enable it by setting zipkinreceiver.httpDefaultProtocol.disallow feaure gate to false")
 		}
 		if isServerConfigDefined(cfg.Protocols.HTTP) {
-			return fmt.Errorf("cannot use .protocols.http together with default server config setup")
+			return fmt.Errorf("cannot use protocols::http together with default server config setup")
 		}
+	}
+
+	return nil
+}
+
+// Unmarshal a confmap.Conf into the config struct.
+func (cfg *Config) Unmarshal(conf *confmap.Conf) error {
+	// first load the config normally
+	err := conf.Unmarshal(cfg)
+	if err != nil {
+		return err
+	}
+
+	if !conf.IsSet(protoHTTP) {
 		cfg.Protocols.HTTP = cfg.ServerConfig
 		cfg.ServerConfig = confighttp.ServerConfig{}
 	}
