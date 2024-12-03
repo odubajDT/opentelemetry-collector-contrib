@@ -24,7 +24,7 @@ require (
 	go.opentelemetry.io/collector/pdata/testdata v0.114.1-0.20241202231142-b9ff1bc54c99
 	go.opentelemetry.io/collector/receiver v0.114.1-0.20241202231142-b9ff1bc54c99
 	go.opentelemetry.io/collector/receiver/receivertest v0.114.1-0.20241202231142-b9ff1bc54c99
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.56.0
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.57.0
 	go.opentelemetry.io/otel v1.32.0
 	go.opentelemetry.io/otel/sdk v1.32.0
 	go.opentelemetry.io/otel/trace v1.32.0
