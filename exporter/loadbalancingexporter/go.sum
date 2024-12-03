@@ -141,6 +141,16 @@ github.com/onsi/ginkgo/v2 v2.19.0 h1:9Cnnf7UHo57Hy3k6/m5k3dRfGTMXGvxhHFvkDTCTpvA
 github.com/onsi/ginkgo/v2 v2.19.0/go.mod h1:rlwLi9PilAFJ8jCg9UE1QP6VBpd6/xj3SRC0d6TU0To=
 github.com/onsi/gomega v1.33.1 h1:dsYjIxxSR755MDmKVsaFQTE22ChNBcuuTWgkUDSubOk=
 github.com/onsi/gomega v1.33.1/go.mod h1:U4R44UsT+9eLIaYRB2a5qajjtQYn0hauxvRm16AVYg0=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics v0.114.0 h1:5WCUkPKZXf0MGTPlpB6iyE5bHsqnyRzZejNuYtczv7w=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics v0.114.0/go.mod h1:h0wW27GeLc4D+9eWhvZMzhC3E/86EF8BPZzU7fiJrNQ=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal v0.114.0 h1:b2g9PeNVhdBxwDYrWzwiZUccg4jeYni0bHb+4b1XAAU=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal v0.114.0/go.mod h1:iZd4CjA07OoaGHo/BYd9IfwNrGngmbdeToEougSvLKw=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.114.0 h1:SXi6JSSs2cWROnC1U2v3XysG3t58ilGUwoLqxpGuwFU=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.114.0/go.mod h1:LSd6sus2Jvpg3M3vM4HgmVh3/dmMtcJmTqELrFOQFRg=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.114.0 h1:m8uPYU2rTj0sKiYgzCvIPajD3meiYsu+nX0hplUnlEU=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.114.0/go.mod h1:P0BaP92pXPkTyTmObfLYUoRBfMYU+i0hdS3oM1DpGJo=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.114.0 h1:Qg80zPfNMlub7LO07VMDElOu3M2oxqdZgvvB+X72a4U=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.114.0/go.mod h1:5qsGcjFV3WFI6J2onAlkR7Xd/8VtwJcECaDRZfW4Tb4=
 github.com/pierrec/lz4/v4 v4.1.21 h1:yOVMLb6qSIDP67pl/5F7RepeKYu/VmTyEXvuMI5d9mQ=
 github.com/pierrec/lz4/v4 v4.1.21/go.mod h1:gZWDp/Ze/IJXGXf23ltt2EXimqmTUXEy0GFuRQyBid4=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
@@ -438,8 +448,8 @@ k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 h1:BZqlfIlq5YbRMFko6/PM7F
 k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340/go.mod h1:yD4MZYeKMBwQKVht279WycxKyM84kkAx2DPrTXaeb98=
 k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 h1:pUdcCO1Lk/tbT5ztQWOBi5HBgbBP1J8+AsQnQCKsi8A=
 k8s.io/utils v0.0.0-20240711033017-18e509b52bc8/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
-sigs.k8s.io/controller-runtime v0.19.2 h1:3sPrF58XQEPzbE8T81TN6selQIMGbtYwuaJ6eDssDF8=
-sigs.k8s.io/controller-runtime v0.19.2/go.mod h1:iRmWllt8IlaLjvTTDLhRBXIEtkCK6hwVBJJsYS9Ajf4=
+sigs.k8s.io/controller-runtime v0.19.3 h1:XO2GvC9OPftRst6xWCpTgBZO04S2cbp0Qqkj8bX1sPw=
+sigs.k8s.io/controller-runtime v0.19.3/go.mod h1:j4j87DqtsThvwTv5/Tc5NFRyyF/RF0ip4+62tbTSIUM=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd h1:EDPBXCAspyGV4jQlpZSudPeMmr1bNJefnuqLsRAsHZo=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd/go.mod h1:B8JuhiUyNFVKdsE8h686QcCxMaH6HrOAZj4vswFpcB0=
 sigs.k8s.io/structured-merge-diff/v4 v4.4.1 h1:150L+0vs/8DA78h1u02ooW1/fFq/Lwr+sGiqlzvrtq4=
