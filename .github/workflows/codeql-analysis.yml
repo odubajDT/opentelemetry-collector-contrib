@@ -7,7 +7,7 @@ on:
       - "**/README.md"
 env:
   # renovate: datasource=golang-version depName=go
-  GO_VERSION: "1.22.9"
+  GO_VERSION: "1.23.4"
 jobs:
   CodeQL-Build:
     runs-on: macos-latest
