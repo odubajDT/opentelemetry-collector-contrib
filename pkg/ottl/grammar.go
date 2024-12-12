@@ -234,6 +234,7 @@ func (a *argument) accept(v grammarVisitor) {
 // mathExpression, function call, or literal.
 type value struct {
 	IsNil          *isNil           `parser:"( @'nil'"`
+	ExpressionPath *path            `parser:"| '$''{' @@ '}'"`
 	Literal        *mathExprLiteral `parser:"| @@ (?! OpAddSub | OpMultDiv)"`
 	MathExpression *mathExpression  `parser:"| @@"`
 	Bytes          *byteSlice       `parser:"| @Bytes"`
@@ -259,6 +260,9 @@ func (v *value) accept(vis grammarVisitor) {
 		for _, i := range v.List.Values {
 			i.accept(vis)
 		}
+	}
+	if v.ExpressionPath != nil {
+		vis.visitPath(v.ExpressionPath)
 	}
 }
 
@@ -486,6 +490,7 @@ func buildLexer() *lexer.StatefulDefinition {
 		{Name: `LBrace`, Pattern: `\{`},
 		{Name: `RBrace`, Pattern: `\}`},
 		{Name: `Colon`, Pattern: `\:`},
+		{Name: `Dollar`, Pattern: `\$`},
 		{Name: `Punct`, Pattern: `[,.\[\]]`},
 		{Name: `Uppercase`, Pattern: `[A-Z][A-Z0-9_]*`},
 		{Name: `Lowercase`, Pattern: `[a-z][a-z0-9_]*`},
