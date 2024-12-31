@@ -3,11 +3,11 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/datado
 go 1.22.0
 
 require (
-	github.com/DataDog/agent-payload/v5 v5.0.136
-	github.com/DataDog/datadog-agent/pkg/obfuscate v0.59.0
-	github.com/DataDog/datadog-agent/pkg/proto v0.59.0
-	github.com/DataDog/datadog-agent/pkg/trace v0.59.0
-	github.com/DataDog/datadog-api-client-go/v2 v2.31.0
+	github.com/DataDog/agent-payload/v5 v5.0.138
+	github.com/DataDog/datadog-agent/pkg/obfuscate v0.60.1
+	github.com/DataDog/datadog-agent/pkg/proto v0.60.1
+	github.com/DataDog/datadog-agent/pkg/trace v0.60.1
+	github.com/DataDog/datadog-api-client-go/v2 v2.34.0
 	github.com/DataDog/sketches-go v1.4.6
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics v0.115.0
@@ -33,11 +33,11 @@ require (
 )
 
 require (
-	github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.59.0 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/log v0.59.0 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/scrubber v0.59.0 // indirect
+	github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.60.1 // indirect
+	github.com/DataDog/datadog-agent/pkg/util/log v0.60.1 // indirect
+	github.com/DataDog/datadog-agent/pkg/util/scrubber v0.60.1 // indirect
 	github.com/DataDog/datadog-go/v5 v5.5.0 // indirect
-	github.com/DataDog/go-sqllexer v0.0.15 // indirect
+	github.com/DataDog/go-sqllexer v0.0.16 // indirect
 	github.com/DataDog/go-tuf v1.1.0-0.5.2 // indirect
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.20.0 // indirect
 	github.com/DataDog/zstd v1.5.5 // indirect
@@ -105,8 +105,9 @@ require (
 	go.uber.org/atomic v1.11.0 // indirect
 	golang.org/x/net v0.31.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
-	golang.org/x/sys v0.27.0 // indirect
-	golang.org/x/text v0.20.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/time v0.7.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240822170219-fc7c04adadcd // indirect
 	google.golang.org/grpc v1.67.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
