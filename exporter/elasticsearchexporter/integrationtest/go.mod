@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasti
 go 1.22.0
 
 require (
-	github.com/elastic/go-docappender/v2 v2.3.1
+	github.com/elastic/go-docappender/v2 v2.3.3
 	github.com/gorilla/mux v1.8.1
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage v0.115.0
@@ -30,7 +30,7 @@ require (
 	go.opentelemetry.io/collector/receiver/otlpreceiver v0.115.0
 	go.opentelemetry.io/collector/receiver/receivertest v0.115.0
 	go.uber.org/zap v1.27.0
-	golang.org/x/sync v0.9.0
+	golang.org/x/sync v0.10.0
 )
 
 require (
@@ -47,7 +47,7 @@ require (
 	github.com/ebitengine/purego v0.8.1 // indirect
 	github.com/elastic/elastic-transport-go/v8 v8.6.0 // indirect
 	github.com/elastic/go-elasticsearch/v7 v7.17.10 // indirect
-	github.com/elastic/go-elasticsearch/v8 v8.16.0 // indirect
+	github.com/elastic/go-elasticsearch/v8 v8.17.0 // indirect
 	github.com/elastic/go-grok v0.3.1 // indirect
 	github.com/elastic/go-structform v0.0.12 // indirect
 	github.com/elastic/go-sysinfo v1.14.0 // indirect

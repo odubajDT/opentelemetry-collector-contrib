@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0
-	github.com/elastic/go-docappender/v2 v2.3.1
+	github.com/elastic/go-docappender/v2 v2.3.3
 	github.com/elastic/go-elasticsearch/v7 v7.17.10
 	github.com/elastic/go-structform v0.0.12
 	github.com/json-iterator/go v1.1.12
@@ -35,7 +35,7 @@ require (
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/elastic/elastic-transport-go/v8 v8.6.0 // indirect
-	github.com/elastic/go-elasticsearch/v8 v8.16.0 // indirect
+	github.com/elastic/go-elasticsearch/v8 v8.17.0 // indirect
 	github.com/elastic/go-sysinfo v1.7.1 // indirect
 	github.com/elastic/go-windows v1.0.1 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
@@ -91,7 +91,7 @@ require (
 	go.opentelemetry.io/otel/trace v1.32.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/net v0.31.0 // indirect
-	golang.org/x/sync v0.9.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.27.0 // indirect
 	golang.org/x/text v0.20.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240822170219-fc7c04adadcd // indirect
