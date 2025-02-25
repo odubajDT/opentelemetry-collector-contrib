@@ -5,7 +5,7 @@ go 1.22.0
 require (
 	cloud.google.com/go/logging v1.12.0
 	cloud.google.com/go/pubsub v1.45.1
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/iancoleman/strcase v0.3.0
 	github.com/json-iterator/go v1.1.12
 	github.com/stretchr/testify v1.10.0
