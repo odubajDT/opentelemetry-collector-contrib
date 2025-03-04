@@ -3,13 +3,13 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/connector/datad
 go 1.22.0
 
 require (
-	github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/metricsclient v0.59.0
-	github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/statsprocessor v0.59.0
-	github.com/DataDog/datadog-agent/pkg/proto v0.59.0
-	github.com/DataDog/datadog-agent/pkg/trace v0.59.0
-	github.com/DataDog/datadog-go/v5 v5.5.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.21.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.21.0
+	github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/metricsclient v0.63.2
+	github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/statsprocessor v0.63.2
+	github.com/DataDog/datadog-agent/pkg/proto v0.63.2
+	github.com/DataDog/datadog-agent/pkg/trace v0.63.2
+	github.com/DataDog/datadog-go/v5 v5.6.0
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.26.0
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.26.0
 	github.com/google/go-cmp v0.6.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog v0.115.0
@@ -388,4 +388,4 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experiment
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog => ../../pkg/datadog
 
 // pin github.com/DataDog/datadog-api-client-go/v2 version, it will be removed soon
-replace github.com/DataDog/datadog-api-client-go/v2 => github.com/DataDog/datadog-api-client-go/v2 v2.31.0
+replace github.com/DataDog/datadog-api-client-go/v2 => github.com/DataDog/datadog-api-client-go/v2 v2.35.0
