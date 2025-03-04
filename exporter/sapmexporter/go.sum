@@ -53,14 +53,6 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
-github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.115.0 h1:a36EJz/mb83f6ieX0v4fNDJ1jXqpeaM6DVQXeFDvdhw=
-github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.115.0/go.mod h1:r5/40YO1eSP5ZreOmRzVOUtDr7YG39ZIUcVjHd+9Izc=
-github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk v0.115.0 h1:6GIJOSEIWBt9bprARMtTjRlENrwNsJl2UzbtjOBk7A0=
-github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk v0.115.0/go.mod h1:/Fg/itwlAzDjyM0Sjenup9TbdOT+aVNPSqXsF80M8hw=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.115.0 h1:l4NBxl2AELPlyqupLu1IVAjtbGOEovaKEyt0UGMsuq8=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.115.0/go.mod h1:j1qF1hE/Qcy2I655yXbf2ItezXok61OW+9AAxbH2ORw=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.115.0 h1:rrIm0dyEdaHmQo6udPK1V3opkzEKa0PrZzSdY5oGqmQ=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.115.0/go.mod h1:AMeisxL/9gs0bzozaymUqI1/EJ9GPvtnLh/BtqtjSF8=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=

@@ -82,14 +82,6 @@ github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjY
 github.com/mostynb/go-grpc-compression v1.2.3 h1:42/BKWMy0KEJGSdWvzqIyOZ95YcR9mLPqKctH7Uo//I=
 github.com/mostynb/go-grpc-compression v1.2.3/go.mod h1:AghIxF3P57umzqM9yz795+y1Vjs47Km/Y2FE6ouQ7Lg=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
-github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter v0.115.0 h1:dWNllzBi6d3IMDI8GUNYtXapRTCcSc+Z9iDRprG1hxY=
-github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter v0.115.0/go.mod h1:iIPDM5x8HHWprTkzQowEhRiNSzGSIwJhs+Sef9bSQzM=
-github.com/open-telemetry/opentelemetry-collector-contrib/internal/grpcutil v0.115.0 h1:30bthFAX2q8FwJNNiGUUdGzGTROIRfhg0o+fk6bb0Ss=
-github.com/open-telemetry/opentelemetry-collector-contrib/internal/grpcutil v0.115.0/go.mod h1:+lmWkBrxVqs5uM8iAW6mtPK3MwhDfKk4BYk8Zb07/z4=
-github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent v0.115.0 h1:MuyDWyVoCty8HyP2CAYoRZXwINiThHovcC1Bj3+H8lk=
-github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent v0.115.0/go.mod h1:asekVnrdzYsMJBaJtIyXOt8p07l1x0xs8X3h00sZyf0=
-github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver v0.115.0 h1:+zsCUVICS/H/MC4Rdp70KP+k6ITQ/tbubjiZvf+N7ME=
-github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver v0.115.0/go.mod h1:GehwEvJUy1zMuwjVs65YYQRHoFl+9mpFDOH733mNwzs=
 github.com/open-telemetry/otel-arrow v0.31.0 h1:KEWHM5XrUbuGktf17gp3Tgls0OHPyT0VtT5WEohiCC4=
 github.com/open-telemetry/otel-arrow v0.31.0/go.mod h1:rEiUiCmxRT3RrtB0ZsT5LeTWJBynPCs0iBkVlMGk+E8=
 github.com/pierrec/lz4/v4 v4.1.21 h1:yOVMLb6qSIDP67pl/5F7RepeKYu/VmTyEXvuMI5d9mQ=
