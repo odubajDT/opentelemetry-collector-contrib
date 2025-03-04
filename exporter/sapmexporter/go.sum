@@ -32,8 +32,8 @@ github.com/json-iterator/go v1.1.12 h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnr
 github.com/json-iterator/go v1.1.12/go.mod h1:e30LSqwooZae/UwlEbR2852Gd8hjQvJoHmT4TnhNGBo=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
-github.com/klauspost/compress v1.17.11 h1:In6xLpyWOi1+C7tXUUWv2ot1QvBjxevKAaI6IXrJmUc=
-github.com/klauspost/compress v1.17.11/go.mod h1:pMDklpSncoRMuLFrf1W9Ss9KT+0rH90U12bZKk7uwG0=
+github.com/klauspost/compress v1.18.0 h1:c/Cqfb0r+Yi+JtIEq73FWXVkRonBlf0CRNYc8Zttxdo=
+github.com/klauspost/compress v1.18.0/go.mod h1:2Pp+KzxcywXVXMr50+X0Q/Lsb43OQHYWRCY2AiWywWQ=
 github.com/knadh/koanf/maps v0.1.1 h1:G5TjmUh2D7G2YWf5SQQqSiHRJEjaicvU0KpypqB3NIs=
 github.com/knadh/koanf/maps v0.1.1/go.mod h1:npD/QZY3V6ghQDdcQzl1W4ICNVTkohC8E73eI2xW4yI=
 github.com/knadh/koanf/providers/confmap v0.1.0 h1:gOkxhHkemwG4LezxxN8DMOFopOPghxRVp7JbIvdvqzU=
@@ -53,6 +53,14 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.115.0 h1:a36EJz/mb83f6ieX0v4fNDJ1jXqpeaM6DVQXeFDvdhw=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.115.0/go.mod h1:r5/40YO1eSP5ZreOmRzVOUtDr7YG39ZIUcVjHd+9Izc=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk v0.115.0 h1:6GIJOSEIWBt9bprARMtTjRlENrwNsJl2UzbtjOBk7A0=
+github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk v0.115.0/go.mod h1:/Fg/itwlAzDjyM0Sjenup9TbdOT+aVNPSqXsF80M8hw=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.115.0 h1:l4NBxl2AELPlyqupLu1IVAjtbGOEovaKEyt0UGMsuq8=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.115.0/go.mod h1:j1qF1hE/Qcy2I655yXbf2ItezXok61OW+9AAxbH2ORw=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.115.0 h1:rrIm0dyEdaHmQo6udPK1V3opkzEKa0PrZzSdY5oGqmQ=
+github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.115.0/go.mod h1:AMeisxL/9gs0bzozaymUqI1/EJ9GPvtnLh/BtqtjSF8=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 h1:Jamvg5psRIccs7FGNTlIRMkT8wgtp5eCXdBlqhYGL6U=
 github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
