@@ -5,7 +5,7 @@ go 1.22.0
 require (
 	github.com/google/uuid v1.6.0
 	github.com/oklog/ulid/v2 v2.1.0
-	github.com/open-telemetry/opamp-go v0.17.0
+	github.com/open-telemetry/opamp-go v0.19.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampcustommessages v0.115.0
 	github.com/shirou/gopsutil/v4 v4.24.10
 	github.com/stretchr/testify v1.10.0
@@ -63,7 +63,7 @@ require (
 	golang.org/x/sys v0.27.0 // indirect
 	golang.org/x/text v0.19.0
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142 // indirect
-	google.golang.org/protobuf v1.35.2 // indirect
+	google.golang.org/protobuf v1.36.2 // indirect
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampcustommessages => ../opampcustommessages
