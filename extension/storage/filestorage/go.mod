@@ -6,12 +6,12 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.10.0
 	go.etcd.io/bbolt v1.3.11
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/extension v0.115.0
-	go.opentelemetry.io/collector/extension/experimental/storage v0.115.0
-	go.opentelemetry.io/collector/extension/extensiontest v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.120.0
+	go.opentelemetry.io/collector/confmap v1.26.0
+	go.opentelemetry.io/collector/extension v0.120.0
+	go.opentelemetry.io/collector/extension/experimental/storage v0.117.0
+	go.opentelemetry.io/collector/extension/extensiontest v0.121.0
 	go.uber.org/goleak v1.3.0
 	go.uber.org/zap v1.27.0
 )

@@ -56,28 +56,28 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver v0.115.0
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
 	go.opentelemetry.io/collector/config/configauth v0.115.0 // indirect
-	go.opentelemetry.io/collector/config/configcompression v1.21.0
-	go.opentelemetry.io/collector/config/confighttp v0.115.0
-	go.opentelemetry.io/collector/config/confignet v1.21.0
+	go.opentelemetry.io/collector/config/configcompression v1.26.0
+	go.opentelemetry.io/collector/config/confighttp v0.120.0
+	go.opentelemetry.io/collector/config/confignet v1.26.0
 	go.opentelemetry.io/collector/config/configopaque v1.21.0 // indirect
-	go.opentelemetry.io/collector/config/configretry v1.21.0
-	go.opentelemetry.io/collector/config/configtls v1.21.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/connector v0.115.0
-	go.opentelemetry.io/collector/consumer v1.21.0
-	go.opentelemetry.io/collector/exporter v0.115.0
-	go.opentelemetry.io/collector/featuregate v1.21.0
-	go.opentelemetry.io/collector/otelcol v0.115.0
-	go.opentelemetry.io/collector/otelcol/otelcoltest v0.115.0
-	go.opentelemetry.io/collector/pdata v1.21.0
-	go.opentelemetry.io/collector/processor v0.115.0
-	go.opentelemetry.io/collector/processor/batchprocessor v0.115.0
-	go.opentelemetry.io/collector/processor/memorylimiterprocessor v0.115.0
-	go.opentelemetry.io/collector/receiver v0.115.0
-	go.opentelemetry.io/collector/receiver/otlpreceiver v0.115.0
-	go.opentelemetry.io/collector/semconv v0.115.0
+	go.opentelemetry.io/collector/config/configretry v1.26.0
+	go.opentelemetry.io/collector/config/configtls v1.26.0
+	go.opentelemetry.io/collector/confmap v1.26.0
+	go.opentelemetry.io/collector/connector v0.120.0
+	go.opentelemetry.io/collector/consumer v1.26.0
+	go.opentelemetry.io/collector/exporter v0.120.0
+	go.opentelemetry.io/collector/featuregate v1.26.0
+	go.opentelemetry.io/collector/otelcol v0.121.0
+	go.opentelemetry.io/collector/otelcol/otelcoltest v0.120.0
+	go.opentelemetry.io/collector/pdata v1.26.0
+	go.opentelemetry.io/collector/processor v0.120.0
+	go.opentelemetry.io/collector/processor/batchprocessor v0.121.0
+	go.opentelemetry.io/collector/processor/memorylimiterprocessor v0.120.0
+	go.opentelemetry.io/collector/receiver v0.121.0
+	go.opentelemetry.io/collector/receiver/otlpreceiver v0.120.0
+	go.opentelemetry.io/collector/semconv v0.120.0
 	go.opentelemetry.io/otel/metric v1.32.0 // indirect
 	go.opentelemetry.io/otel/trace v1.32.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
@@ -92,9 +92,9 @@ require (
 
 require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/consumer/consumererror v0.115.0
-	go.opentelemetry.io/collector/exporter/exportertest v0.115.0
+	go.opentelemetry.io/collector/component/componenttest v0.120.0
+	go.opentelemetry.io/collector/consumer/consumererror v0.120.0
+	go.opentelemetry.io/collector/exporter/exportertest v0.120.0
 )
 
 require (

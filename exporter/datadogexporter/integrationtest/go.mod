@@ -11,20 +11,20 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver v0.115.0
 	github.com/stretchr/testify v1.10.0
 	github.com/tinylib/msgp v1.2.4
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/confmap/provider/envprovider v1.21.0
-	go.opentelemetry.io/collector/confmap/provider/fileprovider v1.21.0
-	go.opentelemetry.io/collector/connector v0.115.0
-	go.opentelemetry.io/collector/exporter v0.115.0
-	go.opentelemetry.io/collector/exporter/debugexporter v0.115.0
-	go.opentelemetry.io/collector/featuregate v1.21.0
-	go.opentelemetry.io/collector/otelcol v0.115.0
-	go.opentelemetry.io/collector/otelcol/otelcoltest v0.115.0
-	go.opentelemetry.io/collector/processor v0.115.0
-	go.opentelemetry.io/collector/processor/batchprocessor v0.115.0
-	go.opentelemetry.io/collector/receiver v0.115.0
-	go.opentelemetry.io/collector/receiver/otlpreceiver v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/confmap v1.26.0
+	go.opentelemetry.io/collector/confmap/provider/envprovider v1.26.0
+	go.opentelemetry.io/collector/confmap/provider/fileprovider v1.26.0
+	go.opentelemetry.io/collector/connector v0.120.0
+	go.opentelemetry.io/collector/exporter v0.120.0
+	go.opentelemetry.io/collector/exporter/debugexporter v0.121.0
+	go.opentelemetry.io/collector/featuregate v1.26.0
+	go.opentelemetry.io/collector/otelcol v0.121.0
+	go.opentelemetry.io/collector/otelcol/otelcoltest v0.120.0
+	go.opentelemetry.io/collector/processor v0.120.0
+	go.opentelemetry.io/collector/processor/batchprocessor v0.121.0
+	go.opentelemetry.io/collector/receiver v0.121.0
+	go.opentelemetry.io/collector/receiver/otlpreceiver v0.120.0
 	go.opentelemetry.io/otel v1.32.0
 	go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc v0.8.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.32.0

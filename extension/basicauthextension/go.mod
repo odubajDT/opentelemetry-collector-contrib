@@ -5,14 +5,14 @@ go 1.22.0
 require (
 	github.com/stretchr/testify v1.10.0
 	github.com/tg123/go-htpasswd v1.2.3
-	go.opentelemetry.io/collector/client v1.21.0
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/config/configopaque v1.21.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/extension v0.115.0
-	go.opentelemetry.io/collector/extension/auth v0.115.0
-	go.opentelemetry.io/collector/extension/extensiontest v0.115.0
+	go.opentelemetry.io/collector/client v1.26.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.120.0
+	go.opentelemetry.io/collector/config/configopaque v1.26.0
+	go.opentelemetry.io/collector/confmap v1.26.0
+	go.opentelemetry.io/collector/extension v0.120.0
+	go.opentelemetry.io/collector/extension/auth v0.120.0
+	go.opentelemetry.io/collector/extension/extensiontest v0.121.0
 	go.uber.org/goleak v1.3.0
 	google.golang.org/grpc v1.67.1
 )
