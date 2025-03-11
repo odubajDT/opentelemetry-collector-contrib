@@ -6,7 +6,7 @@ require (
 	github.com/fluent/fluent-logger-golang v1.9.0
 	github.com/jaegertracing/jaeger v1.62.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector v0.115.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector v0.115.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector v0.121.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/carbonexporter v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter v0.115.0
