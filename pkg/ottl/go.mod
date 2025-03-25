@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl
 go 1.22.0
 
 require (
-	github.com/alecthomas/participle/v2 v2.1.1
+	github.com/alecthomas/participle/v2 v2.1.4
 	github.com/antchfx/xmlquery v1.4.2
 	github.com/antchfx/xpath v1.3.2
 	github.com/elastic/go-grok v0.3.1
