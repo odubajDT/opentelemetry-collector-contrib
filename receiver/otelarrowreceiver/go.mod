@@ -1,6 +1,8 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver
 
-go 1.22.0
+go 1.23
+
+toolchain go1.23.10
 
 require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/grpcutil v0.115.0
