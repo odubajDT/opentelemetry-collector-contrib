@@ -3,8 +3,8 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/datadog
 go 1.22.0
 
 require (
-	github.com/DataDog/datadog-agent/pkg/util/hostname/validate v0.59.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.21.0
+	github.com/DataDog/datadog-agent/pkg/util/hostname/validate v0.69.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.31.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v0.115.0
 	go.opentelemetry.io/collector/component/componenttest v0.115.0
