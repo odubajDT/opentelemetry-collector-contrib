@@ -1,6 +1,8 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal
 
-go 1.22.0
+go 1.23.0
+
+toolchain go1.24.6
 
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0
