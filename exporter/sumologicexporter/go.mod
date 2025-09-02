@@ -6,20 +6,20 @@ require (
 	github.com/klauspost/compress v1.17.11
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension v0.115.0
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/config/configauth v0.115.0
-	go.opentelemetry.io/collector/config/configcompression v1.21.0
-	go.opentelemetry.io/collector/config/confighttp v0.115.0
-	go.opentelemetry.io/collector/config/configretry v1.21.0
-	go.opentelemetry.io/collector/config/configtelemetry v0.115.0
-	go.opentelemetry.io/collector/config/configtls v1.21.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/consumer/consumererror v0.115.0
-	go.opentelemetry.io/collector/exporter v0.115.0
-	go.opentelemetry.io/collector/exporter/exportertest v0.115.0
-	go.opentelemetry.io/collector/pdata v1.21.0
-	go.opentelemetry.io/collector/pipeline v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.134.0
+	go.opentelemetry.io/collector/config/configauth v0.134.0
+	go.opentelemetry.io/collector/config/configcompression v1.40.0
+	go.opentelemetry.io/collector/config/confighttp v0.134.0
+	go.opentelemetry.io/collector/config/configretry v1.40.0
+	go.opentelemetry.io/collector/config/configtelemetry v0.134.0
+	go.opentelemetry.io/collector/config/configtls v1.40.0
+	go.opentelemetry.io/collector/confmap v1.40.0
+	go.opentelemetry.io/collector/consumer/consumererror v0.134.0
+	go.opentelemetry.io/collector/exporter v0.134.0
+	go.opentelemetry.io/collector/exporter/exportertest v0.134.0
+	go.opentelemetry.io/collector/pdata v1.40.0
+	go.opentelemetry.io/collector/pipeline v0.131.0
 	go.opentelemetry.io/otel v1.32.0
 	go.opentelemetry.io/otel/metric v1.32.0
 	go.opentelemetry.io/otel/sdk/metric v1.32.0

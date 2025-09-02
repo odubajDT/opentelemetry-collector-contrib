@@ -13,20 +13,20 @@ require (
 	github.com/shirou/gopsutil/v4 v4.24.11
 	github.com/stretchr/testify v1.10.0
 	github.com/yusufpapurcu/wmi v1.2.4
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/consumer v1.21.0
-	go.opentelemetry.io/collector/consumer/consumertest v0.115.0
-	go.opentelemetry.io/collector/featuregate v1.21.0
-	go.opentelemetry.io/collector/filter v0.115.0
-	go.opentelemetry.io/collector/otelcol/otelcoltest v0.115.0
-	go.opentelemetry.io/collector/pdata v1.21.0
-	go.opentelemetry.io/collector/pipeline v0.115.0
-	go.opentelemetry.io/collector/receiver v0.115.0
-	go.opentelemetry.io/collector/receiver/receivertest v0.115.0
-	go.opentelemetry.io/collector/scraper v0.115.0
-	go.opentelemetry.io/collector/semconv v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.134.0
+	go.opentelemetry.io/collector/confmap v1.40.0
+	go.opentelemetry.io/collector/consumer v1.40.0
+	go.opentelemetry.io/collector/consumer/consumertest v0.134.0
+	go.opentelemetry.io/collector/featuregate v1.40.0
+	go.opentelemetry.io/collector/filter v0.134.0
+	go.opentelemetry.io/collector/otelcol/otelcoltest v0.134.0
+	go.opentelemetry.io/collector/pdata v1.40.0
+	go.opentelemetry.io/collector/pipeline v0.131.0
+	go.opentelemetry.io/collector/receiver v0.121.0
+	go.opentelemetry.io/collector/receiver/receivertest v0.134.0
+	go.opentelemetry.io/collector/scraper v0.134.0
+	go.opentelemetry.io/collector/semconv v0.128.0
 	go.uber.org/goleak v1.3.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.27.0

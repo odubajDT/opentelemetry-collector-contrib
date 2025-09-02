@@ -9,17 +9,17 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver v0.115.0
 	github.com/openzipkin/zipkin-go v0.4.3
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/config/confighttp v0.115.0
-	go.opentelemetry.io/collector/config/configretry v1.21.0
-	go.opentelemetry.io/collector/config/configtls v1.21.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/consumer/consumererror v0.115.0
-	go.opentelemetry.io/collector/exporter v0.115.0
-	go.opentelemetry.io/collector/exporter/exportertest v0.115.0
-	go.opentelemetry.io/collector/pdata v1.21.0
-	go.opentelemetry.io/collector/receiver/receivertest v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.134.0
+	go.opentelemetry.io/collector/config/confighttp v0.134.0
+	go.opentelemetry.io/collector/config/configretry v1.40.0
+	go.opentelemetry.io/collector/config/configtls v1.40.0
+	go.opentelemetry.io/collector/confmap v1.40.0
+	go.opentelemetry.io/collector/consumer/consumererror v0.134.0
+	go.opentelemetry.io/collector/exporter v0.134.0
+	go.opentelemetry.io/collector/exporter/exportertest v0.134.0
+	go.opentelemetry.io/collector/pdata v1.40.0
+	go.opentelemetry.io/collector/receiver/receivertest v0.134.0
 	go.uber.org/goleak v1.3.0
 )
 

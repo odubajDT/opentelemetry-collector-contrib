@@ -6,15 +6,15 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.115.0
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/config/confignet v1.21.0
-	go.opentelemetry.io/collector/config/configretry v1.21.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/exporter v0.115.0
-	go.opentelemetry.io/collector/exporter/exportertest v0.115.0
-	go.opentelemetry.io/collector/pdata v1.21.0
-	go.opentelemetry.io/collector/semconv v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.134.0
+	go.opentelemetry.io/collector/config/confignet v1.40.0
+	go.opentelemetry.io/collector/config/configretry v1.40.0
+	go.opentelemetry.io/collector/confmap v1.40.0
+	go.opentelemetry.io/collector/exporter v0.134.0
+	go.opentelemetry.io/collector/exporter/exportertest v0.134.0
+	go.opentelemetry.io/collector/pdata v1.40.0
+	go.opentelemetry.io/collector/semconv v0.128.0
 	go.uber.org/goleak v1.3.0
 	go.uber.org/multierr v1.11.0
 )

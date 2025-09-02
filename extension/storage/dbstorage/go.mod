@@ -9,12 +9,12 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/stretchr/testify v1.10.0
 	github.com/testcontainers/testcontainers-go v0.33.0
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/extension v0.115.0
-	go.opentelemetry.io/collector/extension/experimental/storage v0.115.0
-	go.opentelemetry.io/collector/extension/extensiontest v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.134.0
+	go.opentelemetry.io/collector/confmap v1.40.0
+	go.opentelemetry.io/collector/extension v0.120.0
+	go.opentelemetry.io/collector/extension/experimental/storage v0.117.0
+	go.opentelemetry.io/collector/extension/extensiontest v0.134.0
 	go.uber.org/goleak v1.3.0
 	go.uber.org/zap v1.27.0
 )

@@ -6,16 +6,16 @@ require (
 	github.com/DataDog/datadog-agent/pkg/util/hostname/validate v0.59.0
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.21.0
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/config/configauth v0.115.0
-	go.opentelemetry.io/collector/config/confighttp v0.115.0
-	go.opentelemetry.io/collector/config/confignet v1.21.0
-	go.opentelemetry.io/collector/config/configopaque v1.21.0
-	go.opentelemetry.io/collector/config/configretry v1.21.0
-	go.opentelemetry.io/collector/config/configtls v1.21.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/exporter v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.134.0
+	go.opentelemetry.io/collector/config/configauth v0.134.0
+	go.opentelemetry.io/collector/config/confighttp v0.134.0
+	go.opentelemetry.io/collector/config/confignet v1.40.0
+	go.opentelemetry.io/collector/config/configopaque v1.40.0
+	go.opentelemetry.io/collector/config/configretry v1.40.0
+	go.opentelemetry.io/collector/config/configtls v1.40.0
+	go.opentelemetry.io/collector/confmap v1.40.0
+	go.opentelemetry.io/collector/exporter v0.134.0
 	go.uber.org/zap v1.27.0
 )
 

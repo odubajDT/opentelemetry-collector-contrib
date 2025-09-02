@@ -4,14 +4,14 @@ go 1.22.0
 
 require (
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component v0.115.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/confmap v1.21.0
-	go.opentelemetry.io/collector/consumer v1.21.0
-	go.opentelemetry.io/collector/consumer/consumertest v0.115.0
-	go.opentelemetry.io/collector/pdata v1.21.0
-	go.opentelemetry.io/collector/receiver v0.115.0
-	go.opentelemetry.io/collector/receiver/receivertest v0.115.0
+	go.opentelemetry.io/collector/component v0.120.0
+	go.opentelemetry.io/collector/component/componenttest v0.134.0
+	go.opentelemetry.io/collector/confmap v1.40.0
+	go.opentelemetry.io/collector/consumer v1.40.0
+	go.opentelemetry.io/collector/consumer/consumertest v0.134.0
+	go.opentelemetry.io/collector/pdata v1.40.0
+	go.opentelemetry.io/collector/receiver v0.121.0
+	go.opentelemetry.io/collector/receiver/receivertest v0.134.0
 	go.uber.org/zap v1.27.0
 	golang.org/x/oauth2 v0.23.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20241015192408-796eee8c2d53
@@ -57,7 +57,7 @@ require (
 	go.opentelemetry.io/collector/consumer/consumerprofiles v0.115.0 // indirect
 	go.opentelemetry.io/collector/pdata/pprofile v0.115.0 // indirect
 	go.opentelemetry.io/collector/receiver/receiverprofiles v0.115.0 // indirect
-	go.opentelemetry.io/collector/scraper v0.115.0
+	go.opentelemetry.io/collector/scraper v0.134.0
 	go.opentelemetry.io/otel v1.32.0 // indirect
 	go.opentelemetry.io/otel/metric v1.32.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.32.0 // indirect

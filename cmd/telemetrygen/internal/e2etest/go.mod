@@ -8,10 +8,10 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/cmd/telemetrygen v0.114.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.114.0
 	github.com/stretchr/testify v1.10.0
-	go.opentelemetry.io/collector/component/componenttest v0.115.0
-	go.opentelemetry.io/collector/consumer/consumertest v0.115.0
-	go.opentelemetry.io/collector/receiver/otlpreceiver v0.115.0
-	go.opentelemetry.io/collector/receiver/receivertest v0.115.0
+	go.opentelemetry.io/collector/component/componenttest v0.134.0
+	go.opentelemetry.io/collector/consumer/consumertest v0.134.0
+	go.opentelemetry.io/collector/receiver/otlpreceiver v0.134.0
+	go.opentelemetry.io/collector/receiver/receivertest v0.134.0
 )
 
 require (
