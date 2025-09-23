@@ -3,39 +3,39 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datado
 go 1.22.0
 
 require (
-	github.com/DataDog/agent-payload/v5 v5.0.136
-	github.com/DataDog/datadog-agent/comp/core/config v0.59.0
-	github.com/DataDog/datadog-agent/comp/core/hostname/hostnameinterface v0.59.0
+	github.com/DataDog/agent-payload/v5 v5.0.165
+	github.com/DataDog/datadog-agent/comp/core/config v0.70.2
+	github.com/DataDog/datadog-agent/comp/core/hostname/hostnameinterface v0.70.2
 	github.com/DataDog/datadog-agent/comp/core/log v0.56.2
-	github.com/DataDog/datadog-agent/comp/logs/agent/config v0.59.0
-	github.com/DataDog/datadog-agent/comp/otelcol/logsagentpipeline v0.59.0
-	github.com/DataDog/datadog-agent/comp/otelcol/logsagentpipeline/logsagentpipelineimpl v0.59.0
+	github.com/DataDog/datadog-agent/comp/logs/agent/config v0.70.2
+	github.com/DataDog/datadog-agent/comp/otelcol/logsagentpipeline v0.70.2
+	github.com/DataDog/datadog-agent/comp/otelcol/logsagentpipeline/logsagentpipelineimpl v0.70.2
 	github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/exporter/logsagentexporter v0.61.0-devel.0.20241118141418-5b899217c342
-	github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/metricsclient v0.59.0
+	github.com/DataDog/datadog-agent/comp/otelcol/otlp/components/metricsclient v0.70.2
 	github.com/DataDog/datadog-agent/comp/otelcol/otlp/testutil v0.57.0-devel.0.20240718200853-81bf3b2e412d
-	github.com/DataDog/datadog-agent/comp/trace/compression/impl-gzip v0.59.0
-	github.com/DataDog/datadog-agent/pkg/config/model v0.59.0
-	github.com/DataDog/datadog-agent/pkg/config/setup v0.59.0
+	github.com/DataDog/datadog-agent/comp/trace/compression/impl-gzip v0.70.2
+	github.com/DataDog/datadog-agent/pkg/config/model v0.70.2
+	github.com/DataDog/datadog-agent/pkg/config/setup v0.70.2
 	github.com/DataDog/datadog-agent/pkg/logs/auditor v0.59.0 // indirect
 	github.com/DataDog/datadog-agent/pkg/logs/client v0.59.0 // indirect
 	github.com/DataDog/datadog-agent/pkg/logs/diagnostic v0.59.0 // indirect
 	github.com/DataDog/datadog-agent/pkg/logs/pipeline v0.59.0 // indirect
 	github.com/DataDog/datadog-agent/pkg/logs/sds v0.59.0 // indirect
-	github.com/DataDog/datadog-agent/pkg/logs/sources v0.59.0
+	github.com/DataDog/datadog-agent/pkg/logs/sources v0.70.2
 	github.com/DataDog/datadog-agent/pkg/logs/status/statusinterface v0.59.0 // indirect
-	github.com/DataDog/datadog-agent/pkg/proto v0.59.0
+	github.com/DataDog/datadog-agent/pkg/proto v0.70.2
 	github.com/DataDog/datadog-agent/pkg/status/health v0.59.0 // indirect
-	github.com/DataDog/datadog-agent/pkg/trace v0.59.0
-	github.com/DataDog/datadog-agent/pkg/util/hostname/validate v0.59.0
+	github.com/DataDog/datadog-agent/pkg/trace v0.70.2
+	github.com/DataDog/datadog-agent/pkg/util/hostname/validate v0.70.2
 	github.com/DataDog/datadog-agent/pkg/util/startstop v0.59.0 // indirect
-	github.com/DataDog/datadog-api-client-go/v2 v2.31.0
-	github.com/DataDog/datadog-go/v5 v5.5.0
+	github.com/DataDog/datadog-api-client-go/v2 v2.46.0
+	github.com/DataDog/datadog-go/v5 v5.7.1
 	github.com/DataDog/gohai v0.0.0-20230524154621-4316413895ee
-	github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.21.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.21.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.21.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.21.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.21.0
+	github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.33.0
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.33.0
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.33.0
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.33.0
+	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.33.0
 	github.com/DataDog/sketches-go v1.4.6 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.25.0
 	github.com/aws/aws-sdk-go v1.55.5
@@ -457,7 +457,7 @@ exclude github.com/DataDog/agent-payload/v5 v5.0.59
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37
 
 // pin github.com/DataDog/datadog-api-client-go/v2 version, it will be removed soon
-replace github.com/DataDog/datadog-api-client-go/v2 => github.com/DataDog/datadog-api-client-go/v2 v2.31.0
+replace github.com/DataDog/datadog-api-client-go/v2 => github.com/DataDog/datadog-api-client-go/v2 v2.46.0
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
