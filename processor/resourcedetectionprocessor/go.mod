@@ -1,19 +1,21 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor
 
-go 1.22.0
+go 1.24.0
+
+toolchain go1.24.9
 
 require (
-	cloud.google.com/go/compute/metadata v0.5.2
+	cloud.google.com/go/compute/metadata v0.9.0
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.30.0
 	github.com/aws/aws-sdk-go v1.55.5
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/consul/api v1.30.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders v0.115.0
 	github.com/shirou/gopsutil/v4 v4.24.10
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/collector/component v0.115.0
 	go.opentelemetry.io/collector/component/componenttest v0.115.0
 	go.opentelemetry.io/collector/config/confighttp v0.115.0
@@ -136,7 +138,7 @@ require (
 	golang.org/x/net v0.31.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
 	golang.org/x/sync v0.9.0 // indirect
-	golang.org/x/sys v0.27.0 // indirect
+	golang.org/x/sys v0.36.0 // indirect
 	golang.org/x/term v0.26.0 // indirect
 	golang.org/x/text v0.20.0 // indirect
 	golang.org/x/time v0.4.0 // indirect
