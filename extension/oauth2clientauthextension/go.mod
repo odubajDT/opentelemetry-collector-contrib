@@ -1,6 +1,8 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/extension/oauth2clientauthextension
 
-go 1.22.0
+go 1.24.0
+
+toolchain go1.24.9
 
 require (
 	github.com/stretchr/testify v1.10.0
