@@ -3,9 +3,9 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/loadba
 go 1.22.0
 
 require (
-	github.com/aws/aws-sdk-go-v2/config v1.28.6
-	github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.33.7
-	github.com/aws/smithy-go v1.22.1
+	github.com/aws/aws-sdk-go-v2/config v1.31.15
+	github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.39.12
+	github.com/aws/smithy-go v1.23.1
 	github.com/json-iterator/go v1.1.12
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics v0.115.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal v0.115.0
