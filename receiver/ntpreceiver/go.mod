@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/ntprec
 go 1.22.0
 
 require (
-	github.com/beevik/ntp v1.4.3
+	github.com/beevik/ntp v1.5.0
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v0.115.0
