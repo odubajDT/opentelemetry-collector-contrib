@@ -1,6 +1,8 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver
 
-go 1.22.0
+go 1.23
+
+toolchain go1.24.9
 
 require (
 	github.com/apache/thrift v0.22.0
