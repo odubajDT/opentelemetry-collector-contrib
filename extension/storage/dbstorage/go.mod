@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/docker/docker v27.3.1+incompatible
-	github.com/docker/go-connections v0.5.0
+	github.com/docker/go-connections v0.6.0
 	github.com/jackc/pgx/v5 v5.7.1
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/stretchr/testify v1.10.0
