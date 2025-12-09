@@ -5,9 +5,9 @@ go 1.24.0
 require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/stefexporter v0.139.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.139.0
-	github.com/splunk/stef/go/grpc v0.0.8
-	github.com/splunk/stef/go/otel v0.0.8
-	github.com/splunk/stef/go/pdata v0.0.8
+	github.com/splunk/stef/go/grpc v0.0.9
+	github.com/splunk/stef/go/otel v0.0.9
+	github.com/splunk/stef/go/pdata v0.0.9
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/collector/component v1.45.0
 	go.opentelemetry.io/collector/component/componentstatus v0.139.0
