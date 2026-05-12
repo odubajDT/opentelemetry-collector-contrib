@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk
 go 1.24.0
 
 require (
-	github.com/goccy/go-json v0.10.5
+	github.com/goccy/go-json v0.10.6
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/collector/consumer/consumererror v0.139.0
 	go.opentelemetry.io/collector/exporter/exporterhelper v0.139.0
