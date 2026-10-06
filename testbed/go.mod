@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/testbed
 go 1.26.0
 
 require (
-	github.com/fluent/fluent-logger-golang v1.10.1
+	github.com/fluent/fluent-logger-golang v1.10.2
 	github.com/jaegertracing/jaeger-idl v0.11.4
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector v0.160.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector v0.160.0
