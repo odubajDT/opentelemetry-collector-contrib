@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datado
 go 1.26.0
 
 require (
-	github.com/DataDog/agent-payload/v5 v5.0.210
+	github.com/DataDog/agent-payload/v5 v5.0.214
 	github.com/DataDog/datadog-agent/comp/otelcol/otlp/testutil v0.83.0
 	github.com/DataDog/datadog-agent/pkg/proto v0.83.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector v0.160.0
@@ -137,7 +137,7 @@ require (
 	github.com/DataDog/datadog-agent/pkg/util/system v0.83.0 // indirect
 	github.com/DataDog/datadog-agent/pkg/util/winutil v0.83.0 // indirect
 	github.com/DataDog/datadog-agent/pkg/version v0.83.0 // indirect
-	github.com/DataDog/datadog-api-client-go/v2 v2.65.0 // indirect
+	github.com/DataDog/datadog-api-client-go/v2 v2.67.0 // indirect
 	github.com/DataDog/datadog-go/v5 v5.9.1 // indirect
 	github.com/DataDog/go-acl v1.0.1 // indirect
 	github.com/DataDog/go-sqllexer v0.2.4 // indirect
@@ -217,7 +217,7 @@ require (
 	github.com/iancoleman/strcase v0.3.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.20.0 // indirect
+	github.com/klauspost/compress v1.20.1 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/knadh/koanf/maps v0.1.3 // indirect
 	github.com/knadh/koanf/providers/confmap v1.0.1 // indirect
@@ -368,14 +368,14 @@ require (
 	go.uber.org/zap v1.28.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
-	golang.org/x/crypto v0.56.0 // indirect
+	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20260727155853-b88d891fe743 // indirect
-	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/net v0.61.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
-	golang.org/x/sync v0.23.0 // indirect
-	golang.org/x/sys v0.48.0 // indirect
-	golang.org/x/term v0.45.0 // indirect
-	golang.org/x/text v0.41.0 // indirect
+	golang.org/x/sync v0.24.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
+	golang.org/x/term v0.47.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
 	golang.org/x/time v0.16.0 // indirect
 	gonum.org/v1/gonum v0.17.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260819154853-08b0e4226688 // indirect
