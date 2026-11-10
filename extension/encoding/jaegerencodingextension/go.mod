@@ -8,12 +8,12 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.160.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.160.0
 	github.com/stretchr/testify v1.12.1
-	go.opentelemetry.io/collector/component v1.66.1-0.20260911221045-a35b7a8db49d
-	go.opentelemetry.io/collector/component/componenttest v0.160.1-0.20260911221045-a35b7a8db49d
+	go.opentelemetry.io/collector/component v1.71.0
+	go.opentelemetry.io/collector/component/componenttest v0.165.0
 	go.opentelemetry.io/collector/confmap v1.66.1-0.20260911221045-a35b7a8db49d
-	go.opentelemetry.io/collector/extension v1.66.1-0.20260911221045-a35b7a8db49d
-	go.opentelemetry.io/collector/extension/extensiontest v0.160.1-0.20260911221045-a35b7a8db49d
-	go.opentelemetry.io/collector/pdata v1.66.1-0.20260911221045-a35b7a8db49d
+	go.opentelemetry.io/collector/extension v1.71.0
+	go.opentelemetry.io/collector/extension/extensiontest v0.165.0
+	go.opentelemetry.io/collector/pdata v1.71.0
 	go.uber.org/goleak v1.3.0
 )
 
@@ -37,18 +37,19 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.160.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/core/xidutils v0.160.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/collector/featuregate v1.66.1-0.20260911221045-a35b7a8db49d // indirect
-	go.opentelemetry.io/collector/internal/componentalias v0.160.1-0.20260911221045-a35b7a8db49d // indirect
-	go.opentelemetry.io/collector/pdata/pprofile v0.160.1-0.20260911221045-a35b7a8db49d // indirect
-	go.opentelemetry.io/otel v1.46.0 // indirect
-	go.opentelemetry.io/otel/metric v1.46.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.46.0 // indirect
-	go.opentelemetry.io/otel/sdk/metric v1.46.0 // indirect
-	go.opentelemetry.io/otel/trace v1.46.0 // indirect
+	go.opentelemetry.io/collector/featuregate v1.71.0 // indirect
+	go.opentelemetry.io/collector/internal/componentalias v0.165.0 // indirect
+	go.opentelemetry.io/collector/pdata/pprofile v0.165.0 // indirect
+	go.opentelemetry.io/otel v1.47.0 // indirect
+	go.opentelemetry.io/otel/log v1.47.0 // indirect
+	go.opentelemetry.io/otel/metric v1.47.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.47.0 // indirect
+	go.opentelemetry.io/otel/sdk/metric v1.47.0 // indirect
+	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.28.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
-	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
